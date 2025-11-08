@@ -189,3 +189,67 @@ hr {
       }
     }
 
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+button {
+  
+  margin: 1.5rem auto 0 auto;
+  display: block;
+  padding: 0.75rem;
+  font-size: 1rem;
+  background-color: #9c384d;
+  color: #fffaf2;
+  border-radius: 10px;
+  cursor: pointer;
+    border: none;
+}
+
+label {
+  border-radius: 5px;
+  margin-top: 1rem;
+  font-weight: 600;
+  display:block;
+}
+
+.contact-form {
+  min-width: 400px
+  width: 80%;
+  margin: 2rem;
+  padding: 1.25rem;
+  background-color: #fffaf5;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-grid {
+
+    gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+}
+ 
+.form-group {
+    flex-direction: column;
+    display: flex;
+
+}
+textarea {
+  resize: none;
+}
+
+input,textarea,select{
+      color: #9c384d;
+  padding: 8px; 
+  border-radius: 7px; 
+  border: 1px solid #9c384d; 
+  width: 100%;       
+  box-sizing: border-box; 
+}
+
+input::placeholder,textarea::placeholder,select::placeholder {
+  color: #9c384d;
+ opacity: 0.6;
+}
